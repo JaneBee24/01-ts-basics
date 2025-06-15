@@ -1,11 +1,13 @@
+export {};
+
 interface Product {
-  readonly productId: number;
+  readonly id: number;
   title: string;
   description?: string;
 }
 
 const product: Product = {
-  productId: 1,
+  id: 1,
   title: "Tablet",
   description: "Compact and fast",
 };
